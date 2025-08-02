@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['helmet', 'human', 'vest']
+
+roboflow:
+  workspace: annotate-images-3nrrq
+  project: my-first-project-flyhz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/annotate-images-3nrrq/my-first-project-flyhz/dataset/2
